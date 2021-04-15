@@ -1,0 +1,159 @@
+{
+  "id": "752d2e59-b8e1-4fbf-8af6-12375b15e857",
+  "version": "2.0",
+  "name": "testleboncoin",
+  "url": "https://www.leboncoin.fr",
+  "tests": [{
+    "id": "043b9ad6-5bb3-4183-bb93-2e9f94d0c318",
+    "name": "leboncoin",
+    "commands": [{
+      "id": "39928476-c6d8-43e6-a70f-e4601ceb0b94",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.leboncoin.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1c0e947-c870-4e1f-9bef-5c7360a9907d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e4747fe-b6ed-4edb-bc6c-8f6450e611b0",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.styles_input__2Uamv input",
+      "targets": [
+        ["css=.styles_input__2Uamv input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//section[@id='container']/main/div/div/section/div[3]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5117e5a-5b9c-432f-942d-638f8f8c9dab",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.\\_3sWzy",
+      "targets": [
+        ["css=.\\_3sWzy", "css:finder"],
+        ["xpath=//section[@id='container']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/section/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12f57e95-d0a0-473b-80be-6cc2ca437213",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_2HtUQ input",
+      "targets": [
+        ["css=.\\_2HtUQ input", "css:finder"],
+        ["xpath=//input[@value='switch']", "xpath:attributes"],
+        ["xpath=//section[@id='container']/div[2]/div/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "switch"
+    }, {
+      "id": "48510cc9-3bc5-4d90-9508-5090dbe7ad92",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.\\_2HtUQ input",
+      "targets": [
+        ["css=.\\_2HtUQ input", "css:finder"],
+        ["xpath=//input[@value='switch']", "xpath:attributes"],
+        ["xpath=//section[@id='container']/div[2]/div/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "15b626a9-c2f6-46df-a610-419f891fd52d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.M2VGa",
+      "targets": [
+        ["css=.M2VGa", "css:finder"],
+        ["xpath=//section[@id='container']/div[2]/div/div[2]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dadf5010-a672-4976-bada-7c062717347a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > div:nth-child(1) > .sc-bdvvaa:nth-child(2) > .AdCard__AdCardLink-sc-1h74x40-0:nth-child(1) .AdCardTitle-e546g7-0:nth-child(1)",
+      "targets": [
+        ["css=div:nth-child(1) > div:nth-child(1) > .sc-bdvvaa:nth-child(2) > .AdCard__AdCardLink-sc-1h74x40-0:nth-child(1) .AdCardTitle-e546g7-0:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='container']/main/div/div/div[6]/div/div[5]/div/div/div/div[2]/a/div/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Go vacation switch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "29e0dc20-29a7-4249-8203-5cd4e4413871",
+    "name": "Recherche_boncoin",
+    "commands": [{
+      "id": "a84a07cb-46b0-43de-ad94-245db39a77b0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.leboncoin.fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f97c0662-9b7f-47a4-b8d8-c0bce4d5952d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bfce909-9c16-4300-8851-1784b8046c70",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3YDIi input",
+      "targets": [
+        ["css=.\\_3YDIi input", "css:finder"],
+        ["xpath=//input[@value='bille']", "xpath:attributes"],
+        ["xpath=//section[@id='container']/main/div/div/div[3]/div[2]/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "bille"
+    }, {
+      "id": "7ed57a10-cc82-4bfc-a24f-39596e3f5e98",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.\\_3YDIi .ZlsP9 > input",
+      "targets": [
+        ["css=.\\_3YDIi .ZlsP9 > input", "css:finder"],
+        ["xpath=//input[@value='bille']", "xpath:attributes"],
+        ["xpath=//section[@id='container']/main/div/div/div[3]/div[2]/div/div/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5034113b-4b39-4d4c-9fb7-b5eaa2fc76b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > div:nth-child(1) > .sc-bdvvaa:nth-child(2) > .AdCard__AdCardLink-sc-1h74x40-0:nth-child(1) .AdCardTitle-e546g7-0:nth-child(1)",
+      "targets": [
+        ["css=div:nth-child(1) > div:nth-child(1) > .sc-bdvvaa:nth-child(2) > .AdCard__AdCardLink-sc-1h74x40-0:nth-child(1) .AdCardTitle-e546g7-0:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='container']/main/div/div/div[6]/div/div[5]/div/div/div/div[2]/a/div/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Jeu de construction magnétique')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8a7b6f8e-e237-4097-bbde-119e9e42f9de",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["043b9ad6-5bb3-4183-bb93-2e9f94d0c318"]
+  }],
+  "urls": ["https://www.leboncoin.fr/"],
+  "plugins": []
+}
